@@ -72,17 +72,17 @@ const FieldsCarousel = () => {
             576: { slidesPerView: 1.5 },
             400: { slidesPerView: 1.2 },
           }}
-          className="mySwiper"
+          className="mySwiper pb-1"
         >
           {fieldsData.map(field => (
-            <SwiperSlide key={field.id}>
+            <SwiperSlide key={field.id} className="mb-1">
               <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex flex-col h-[450px] overflow-hidden">
                 <img
                   src={field.image}
                   alt={field.title}
                   className="h-52 w-full object-cover rounded-t-xl transform hover:scale-105 transition-transform duration-300"
                 />
-                <div className="p-5 flex flex-col flex-grow">
+                <div className="p-5 flex flex-col flex-grow pb-1">
                   <h3 className="text-xl font-semibold text-red-700 mb-3">
                     {field.title}
                   </h3>
