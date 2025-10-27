@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
 
         {/* Right */}
-        <div className="flex flex-col text-sm text-gray-200 space-y-2">
+        <div className="flex flex-col text-base text-gray-200 space-y-2">
           <a href="/about" className="hover:text-red-500 transition-colors">
             {t('About Us')}
           </a>
@@ -45,7 +45,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom line */}
-      <div className="max-w-7xl mx-auto border-t border-gray-700 mt-8 pt-4 text-xs text-gray-400 text-center md:text-left">
+      <div className="max-w-7xl mx-auto border-t border-gray-700 mt-8 pt-4 text-base text-gray-400 text-center md:text-left">
         {t('Copyright')}
       </div>
     </footer>
