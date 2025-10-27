@@ -8,7 +8,7 @@ export default function Careers() {
   return (
     <>
       <section
-        className="relative bg-cover bg-center bg-no-repeat h-[50vh] flex items-center justify-center text-center"
+        className="relative bg-cover bg-center bg-no-repeat h-[55vh] flex items-center justify-center text-center"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         {/* Overlay mờ */}

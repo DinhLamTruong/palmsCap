@@ -71,6 +71,7 @@ const FieldsCarousel = () => {
             768: { slidesPerView: 2.2 },
             576: { slidesPerView: 1.5 },
             400: { slidesPerView: 1.2 },
+            300: { slidesPerView: 1 },
           }}
           className="mySwiper pb-1"
         >

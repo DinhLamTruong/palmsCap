@@ -1,6 +1,6 @@
 {
-  "Contact Title": "Contact",
-  "Contact Description": "We are always ready to listen and support you. If you have any questions or want to learn more about PCG's services, please fill out the form below and we will contact you soon.",
+  "Contact Title": "Contact Us",
+  "Contact Description": "We are always ready to listen and support you. If you have any questions or would like to learn more about PCG's services, please fill out the form below and we will get back to you shortly.",
   "Contact Info": "Contact Information",
   "AddressLabel": "Address",
   "Address": "Janus Capital JSC, District 1, Ho Chi Minh City, Vietnam",
@@ -9,7 +9,7 @@
   "EmailLabel": "Email",
   "Email": "info@januscapital.vn",
   "Map Placeholder": "Location Map",
-  "Send Message": "Send Message to Us",
+  "Send Message": "Send us a message",
   "Name": "Your Name",
   "EmailInput": "Your Email",
   "Reason": "Reason for Contact",

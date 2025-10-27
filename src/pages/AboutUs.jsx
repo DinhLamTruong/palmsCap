@@ -8,7 +8,7 @@ export default function AboutUs() {
   return (
     <>
       <section
-        className="relative bg-cover bg-center bg-no-repeat h-[50vh] flex items-center justify-center text-center"
+        className="relative bg-cover bg-center bg-no-repeat h-[55vh] flex items-center justify-center text-center"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         {/* Overlay mờ */}
@@ -16,11 +16,13 @@ export default function AboutUs() {
 
         {/* Nội dung */}
         <div className="relative z-10 text-white px-4">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">
+          <h1 className="text-lg md:text-5xl lg:text-5xl font-bold mb-4 mt-4">
             {t('Building Sustainable Futures')}
           </h1>
           <p className="text-lg mb-6">
-            {t('Palms Capital Group - A trusted partner for sustainable development.')}
+            {t(
+              'Palms Capital Group - A trusted partner for sustainable development.'
+            )}
           </p>
           <button className="bg-red-700 hover:bg-red-800 transition px-6 py-2 rounded-full font-semibold cursor-pointer">
             {t('Learn more')}
@@ -37,13 +39,9 @@ export default function AboutUs() {
 
           {/* Description */}
           <div className="text-gray-700 space-y-6 text-justify">
-            <p>
-              {t('About Us Description 1')}
-            </p>
+            <p>{t('About Us Description 1')}</p>
 
-            <p>
-              {t('About Us Description 2')}
-            </p>
+            <p>{t('About Us Description 2')}</p>
           </div>
         </div>
       </section>

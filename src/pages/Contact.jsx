@@ -31,17 +31,15 @@ export default function Contact() {
       style={{ backgroundImage: `url(${bg})` }}
       className="min-h-[1100px] bg-cover bg-center bg-no-repeat py-[10%] bg-gray-50"
     >
-      <div className="w-full  bg-white">
-        <div className="max-w-6xl  mx-auto px-6 py-16">
+      <div className="w-full bg-white mt-[150px] mb-[100px]">
+        <div className="max-w-6xl mx-auto px-6 py-16 pt-4">
           {/* Title */}
           <div className="text-center mb-16 animate-fadeInUp">
             <h2 className="text-4xl font-semibold text-red-700 inline-block pb-4 relative">
               {t('Contact Title')}
               <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-20 h-[3px] bg-red-700"></span>
             </h2>
-            <p className="mt-4 text-gray-600">
-              {t('Contact Description')}
-            </p>
+            <p className="mt-4 text-gray-600">{t('Contact Description')}</p>
           </div>
 
           <div className="flex flex-col lg:flex-row gap-12 animate-fadeInUp">
